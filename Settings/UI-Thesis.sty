@@ -55,7 +55,17 @@
 % ░░░░░░░▒▒▒▒▒▒▓▓▓▓ Settings ▓▓▓▓▒▒▒▒▒▒░░░░░░░
 \settextfont[Scale=1.2, ItalicFont=*, ItalicFeatures={FakeSlant=0.32}, BoldItalicFont=* Bold, BoldItalicFeatures={FakeSlant=0.32}]{B Nazanin}
 \setlatintextfont[Scale=1]{Times New Roman} % 11pt
-\setdigitfont{Parsi Digits}
+
+% Solve problems with Xepresian: http://qa.parsilatex.com/35710/__xepersian_mathsdigitspec_primitive_font_char_if_exist
+\ExplSyntaxOn
+\cs_set_eq:NN
+\etex_iffontchar:D
+\tex_iffontchar:D
+\cs_undefine:N \c_one
+\int_const:Nn \c_one { 1 }
+\ExplSyntaxOff
+
+\setdigitfont{XB Yas}
 
 \defpersianfont\BNazaninScaleOne[Scale=1]{B Nazanin}
 \defpersianfont\BTitrScaleOne[Scale=1]{B Titr}
