@@ -26,12 +26,8 @@
 \usepackage{multirow}
 
 % --- Cross-reference commands ---
-\newtheorem{thm}{Theorem}[chapter]
-\newtheorem{asmp}{Theorem}[chapter]
-\theoremstyle{definition}
-\newtheorem{definition}[thm]{تعریف}
-\newtheorem{assumption}[asmp]{فرض}
-\newtheorem{example}{مثال}[chapter]
+\theoremstyle{plain}
+\newtheorem*{trick}{ترفند}
 
 \newcommand{\xs}[1]{بخش~\ref{#1}}
 \newcommand{\xc}[1]{فصل~\ref{#1}}
@@ -156,7 +152,7 @@
 \baselineskip=0.9cm
 \setcounter{footnote}{0}
 \input{Chapters/Chapter1}
-% \input{Chapters/Chapter2}
+\input{Chapters/Chapter2}
 % \input{Chapters/Chapter3}
 % \input{Chapters/Chapter4}
 % \input{Chapters/Chapter5}
