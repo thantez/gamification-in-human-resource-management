@@ -53,7 +53,7 @@
 
 
 % ░░░░░░░▒▒▒▒▒▒▓▓▓▓ Settings ▓▓▓▓▒▒▒▒▒▒░░░░░░░
-\settextfont[Scale=1.2, ItalicFont=*, ItalicFeatures={FakeSlant=0.32}, BoldItalicFont=* Bold, BoldItalicFeatures={FakeSlant=0.32}]{B Nazanin}
+\settextfont[Scale=1.2, ItalicFont=*, ItalicFeatures={FakeSlant=0.32}, BoldItalicFont=* Bold, BoldItalicFeatures={FakeSlant=0.32}]{IRNazanin}
 \setlatintextfont[Scale=1]{Times New Roman} % 11pt
 
 % Solve problems with Xepresian: http://qa.parsilatex.com/35710/__xepersian_mathsdigitspec_primitive_font_char_if_exist
@@ -67,7 +67,7 @@
 
 \setdigitfont{XB Yas}
 
-\defpersianfont\BNazaninScaleOne[Scale=1]{B Nazanin}
+\defpersianfont\BNazaninScaleOne[Scale=1]{IRNazanin}
 \defpersianfont\BTitrScaleOne[Scale=1]{B Titr}
 \deflatinfont\TimesNewRomanScaleOne[Scale=1]{Times New Roman}
 \defpersianfont\IranNastaliqScaleOne[Scale=1]{IranNastaliq}
@@ -106,7 +106,7 @@
 \setlength\floatsep{3\baselineskip}
 \setlength{\tabcolsep}{1.5mm}
 \renewcommand{\arraystretch}{1.5}
-\DeclareCaptionFont{MyFont}{\fontsize{12pt}{0}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 12
+\DeclareCaptionFont{MyFont}{\fontsize{12pt}{0}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 12
 \DeclareCaptionLabelSeparator{MySeparator}{\,-\,}
 \captionsetup{margin=5mm, font=MyFont, labelsep=MySeparator, justification=centering}
 
@@ -174,12 +174,12 @@
 
 %%
 \titleformat{\chapter}[display]
-{\fontsize{15pt}{0}\selectfont  \flushleft  \bfseries \BNazaninScaleOne} % B Nazanin 15
-{\chaptertitlename\ \tartibi{chapter}}{0.3cm}{\fontsize{15pt}{0}\selectfont \BNazaninScaleOne\setcounter{footnote}{0}} % B Nazanin 15
+{\fontsize{15pt}{0}\selectfont  \flushleft  \bfseries \BNazaninScaleOne} % IRNazanin 15
+{\chaptertitlename\ \tartibi{chapter}}{0.3cm}{\fontsize{15pt}{0}\selectfont \BNazaninScaleOne\setcounter{footnote}{0}} % IRNazanin 15
 
-\sectionfont{\fontsize{14pt}{\baselineskip}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 14
-\subsectionfont{\fontsize{13pt}{\baselineskip}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 13
-\subsubsectionfont{\fontsize{13pt}{\baselineskip}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 13
+\sectionfont{\fontsize{14pt}{\baselineskip}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 14
+\subsectionfont{\fontsize{13pt}{\baselineskip}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 13
+\subsubsectionfont{\fontsize{13pt}{\baselineskip}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 13
 
 \titlespacing*{\chapter}{0pt}{2.75cm}{6.75cm}
 \titlespacing*{\section}{0pt}{1.2\baselineskip}{0pt}
@@ -219,9 +219,9 @@
 \setlength{\cftafterloftitleskip}{1cm}
 \setlength{\cftafterlottitleskip}{1cm}
 
-\renewcommand{\cfttoctitlefont}{\hspace{5.5cm} \fontsize{13pt}{0}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cftloftitlefont}{\hspace{5.5cm} \fontsize{13pt}{0}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cftlottitlefont}{\hspace{5.5cm} \fontsize{13pt}{0}\selectfont \bfseries \BNazaninScaleOne} % B Nazanin 13
+\renewcommand{\cfttoctitlefont}{\hspace{5.5cm} \fontsize{13pt}{0}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cftloftitlefont}{\hspace{5.5cm} \fontsize{13pt}{0}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cftlottitlefont}{\hspace{5.5cm} \fontsize{13pt}{0}\selectfont \bfseries \BNazaninScaleOne} % IRNazanin 13
 
 \renewcommand{\listfigurename}{\textbf{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} فهرست شکل‌ها}
 \renewcommand{\listtablename}{\textbf{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} فهرست جدول‌ها}
@@ -233,19 +233,19 @@
 \renewcommand{\cfttabpresnum}{جدول }
 \renewcommand{\cfttabaftersnum}{:}
 
-\renewcommand{\cftchapfont}{\bfseries \fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cftsecfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cftsubsecfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cftsubsubsecfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cftfigfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand{\cfttabfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
+\renewcommand{\cftchapfont}{\bfseries \fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cftsecfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cftsubsecfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cftsubsubsecfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cftfigfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand{\cfttabfont}{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
 
-\renewcommand\cftchappagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand\cftsecpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand\cftsubsecpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand\cftsubsubsecpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand\cftfigpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
-\renewcommand\cfttabpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % B Nazanin 13
+\renewcommand\cftchappagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand\cftsecpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand\cftsubsecpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand\cftsubsubsecpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand\cftfigpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
+\renewcommand\cfttabpagefont{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne} % IRNazanin 13
 
 \renewcommand\cftchapafterpnum{\vspace{0cm}}
 \renewcommand\cftsecafterpnum{\vspace{0cm}}
@@ -267,10 +267,10 @@
 }
 \makeatother
 
-\addtocontents{toc}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.3cm}\protect\par} % B Nazanin 13
-\addtocontents{lof}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.1cm}\protect\par} % B Nazanin 13
-\addtocontents{lot}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.1cm}\protect\par} % B Nazanin 13
-\addtocontents{loa}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.1cm}\protect\par} % B Nazanin 13
+\addtocontents{toc}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.3cm}\protect\par} % IRNazanin 13
+\addtocontents{lof}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.1cm}\protect\par} % IRNazanin 13
+\addtocontents{lot}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.1cm}\protect\par} % IRNazanin 13
+\addtocontents{loa}{~\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne عنوان}}\hfill\textbf{\fontsize{13pt}{0}\selectfont {\BNazaninScaleOne صفحه}}\vspace{-0.1cm}\protect\par} % IRNazanin 13
 \addtocontents{loa}{\protect\vspace*{10pt}}
 
 \renewcommand\cftchapaftersnum{:}
@@ -437,14 +437,14 @@
 \begin{center}
 \includegraphics[width = 2.5cm]{Settings/UI_Logo.pdf}
 \\[0.5cm]
-{\fontsize{13pt}{0}\selectfont % B Nazanin bold 13
+{\fontsize{13pt}{0}\selectfont % IRNazanin bold 13
 \textbf{
 دانشگاه اصفهان
 }}\\[0.35cm]
-{\fontsize{12pt}{0}\selectfont \textbf{\@DepartmentFa}}\\ [0.3cm] % B Nazanin bold 12
-{\fontsize{11pt}{0}\selectfont \textbf{\@GroupFa}}\\ % B Nazanin bold 11
+{\fontsize{12pt}{0}\selectfont \textbf{\@DepartmentFa}}\\ [0.3cm] % IRNazanin bold 12
+{\fontsize{11pt}{0}\selectfont \textbf{\@GroupFa}}\\ % IRNazanin bold 11
 \vspace*{\fill}
-{\fontsize{18pt}{0}\selectfont \textbf{\@ThesisTypeFa~\@DegreeFa~رشته‌ی~\@FieldFa~گرایش~\@BranchFa}}\\[1.5cm] % B Nazanin bold 18
+{\fontsize{18pt}{0}\selectfont \textbf{\@ThesisTypeFa~\@DegreeFa~رشته‌ی~\@FieldFa~گرایش~\@BranchFa}}\\[1.5cm] % IRNazanin bold 18
 {\fontsize{15pt}{0}\selectfont  \BTitrScaleOne \@TitleFa}\\ % B Titr 15
 \vspace*{\fill}
 
@@ -453,10 +453,10 @@
 استاد راهنما:
 }} \else {\fontsize{15pt}{0}\selectfont \textbf{
 استادان راهنما:
-}}\fi \\[0.4cm] % B Nazanin 15
+}}\fi \\[0.4cm] % IRNazanin 15
 \ifx\ST@SecondSupervisorFa\undefined
 {\fontsize{13pt}{0}\selectfont \textbf{دکتر‍~\@FirstSupervisorFa}}
-\else {\fontsize{13pt}{0}\selectfont \textbf{دکتر‍~\@FirstSupervisorFa \\[0.4cm] دکتر‍~\ST@SecondSupervisorFa}} \fi \\% B Nazanin  bold 13
+\else {\fontsize{13pt}{0}\selectfont \textbf{دکتر‍~\@FirstSupervisorFa \\[0.4cm] دکتر‍~\ST@SecondSupervisorFa}} \fi \\% IRNazanin  bold 13
 \vspace*{\fill}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \ifx\ST@FirstAdvisorFa\undefined \else
@@ -466,22 +466,22 @@
 استاد مشاور:
 }} \else {\fontsize{15pt}{0}\selectfont \textbf{
 استادان مشاور:
-}}\fi \\[0.4cm] % B Nazanin 15
+}}\fi \\[0.4cm] % IRNazanin 15
 \ifx\ST@SecondAdvisorFa\undefined
 {\fontsize{13pt}{0}\selectfont \textbf{دکتر‍~\ST@FirstAdvisorFa}}
-\else {\fontsize{13pt}{0}\selectfont \textbf{دکتر‍~\ST@FirstAdvisorFa \\[0.4cm] دکتر‍~\ST@SecondAdvisorFa}} \fi \\% B Nazanin  bold 13
+\else {\fontsize{13pt}{0}\selectfont \textbf{دکتر‍~\ST@FirstAdvisorFa \\[0.4cm] دکتر‍~\ST@SecondAdvisorFa}} \fi \\% IRNazanin  bold 13
 \vspace*{\fill}
 } 
 \fi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {\fontsize{15pt}{0}\selectfont \textbf{
 دانشجو:
-}}  \\[0.4cm] % B Nazanin bold 15
+}}  \\[0.4cm] % IRNazanin bold 15
 
-{\fontsize{13pt}{0}\selectfont \textbf{\@YourFullnameFa}}\\ % ‌B Nazanin bold 13
+{\fontsize{13pt}{0}\selectfont \textbf{\@YourFullnameFa}}\\ % ‌IRNazanin bold 13
 \vspace*{\fill}
 
-{\fontsize{13pt}{0pt}\selectfont \textbf{\@YearFa}} % B Nazanin bold 13
+{\fontsize{13pt}{0pt}\selectfont \textbf{\@YearFa}} % IRNazanin bold 13
 \end{center}
 }
 \restoregeometry
@@ -498,7 +498,7 @@
 \hspace*{\fill}
 \begin{minipage}{11cm}
 {\BNazaninScaleOne
-{\fontsize{13pt}{0.9cm}\selectfont  %‌ B Nazanin 13
+{\fontsize{13pt}{0.9cm}\selectfont  %‌ IRNazanin 13
 \noindent
 {
 \begin{center}
@@ -539,22 +539,22 @@
 \begin{center}
 \includegraphics[width = 2.5cm]{Settings/UI_Logo.pdf}
 \\ [0.5cm]
-{\fontsize{13pt}{0}\selectfont % B Nazanin bold 13
+{\fontsize{13pt}{0}\selectfont % IRNazanin bold 13
 \textbf{
 دانشگاه اصفهان
 }}\\[0.35cm]
-{\fontsize{12pt}{0}\selectfont \textbf{\@DepartmentFa}}\\ [0.3cm] % B Nazanin bold 12
-{\fontsize{11pt}{0}\selectfont \textbf{\@GroupFa}}\\ % B Nazanin bold 11
+{\fontsize{12pt}{0}\selectfont \textbf{\@DepartmentFa}}\\ [0.3cm] % IRNazanin bold 12
+{\fontsize{11pt}{0}\selectfont \textbf{\@GroupFa}}\\ % IRNazanin bold 11
 \vspace{3cm}
 
-{\fontsize{18pt}{0}\selectfont \textbf{\@ThesisTypeFa~\@DegreeFa~رشته‌ی~\@FieldFa~گرایش~\@BranchFa\\ [0.4cm]~\@Prefix~\@YourFullnameFa}}\\ % B Nazanin bold 18
+{\fontsize{18pt}{0}\selectfont \textbf{\@ThesisTypeFa~\@DegreeFa~رشته‌ی~\@FieldFa~گرایش~\@BranchFa\\ [0.4cm]~\@Prefix~\@YourFullnameFa}}\\ % IRNazanin bold 18
 [1cm]
 
 {\fontsize{15pt}{0}\selectfont  \BTitrScaleOne \textbf{\@TitleFa}} % B Titr 15
 \\ [1cm]
 
 \end{center}
-{\fontsize{13pt}{0}\selectfont % B Nazanin 13
+{\fontsize{13pt}{0}\selectfont % IRNazanin 13
 در تاریخ
 ~\@DateFa~
 توسط هیأت داوران بررسی و با درجه‌ی~\textbf{\@ThesisMark}~به تصویب نهایی رسید.‎
@@ -632,9 +632,9 @@
 %[0.4cm]
 %{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne \par \noindent \@AbstractFa} \\
 %[0.7cm]
-%{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne \par \noindent \textbf{کلیدواژه‌ها:}} \\ % B Nazanin 13
+%{\fontsize{13pt}{0}\selectfont \BNazaninScaleOne \par \noindent \textbf{کلیدواژه‌ها:}} \\ % IRNazanin 13
 %[0.4cm]
-%{\fontsize{12pt}{0}\selectfont \BNazaninScaleOne \par\noindent \@KeywordsFa} % B Nazanin 12
+%{\fontsize{12pt}{0}\selectfont \BNazaninScaleOne \par\noindent \@KeywordsFa} % IRNazanin 12
 %}
 %\makeatother
 
@@ -655,7 +655,7 @@
 %\addcontentsline{toc}{section}{چکیده}‎
 \baselineskip=0.7cm
 {\BNazaninScaleOne
-{\fontsize{13pt}{0}\selectfont \par\noindent \textbf{چکیده} \baselineskip=0.7cm \\ \@AbstractFa \\ \textbf{کلیدواژه‌ها:} \baselineskip=0.7cm \@KeywordsFa} % B Nazanin 13
+{\fontsize{13pt}{0}\selectfont \par\noindent \textbf{چکیده} \baselineskip=0.7cm \\ \@AbstractFa \\ \textbf{کلیدواژه‌ها:} \baselineskip=0.7cm \@KeywordsFa} % IRNazanin 13
 }
 }
 \makeatother
